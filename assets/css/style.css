@@ -1345,3 +1345,11 @@ section {
   font-size: 8px;
   color: rgb(116, 116, 116);
 }
+
+.failed-message{
+  color:#ed3c0d;
+}
+
+.success-message{
+  color:#18d26e;
+}
