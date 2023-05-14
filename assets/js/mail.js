@@ -3,7 +3,9 @@ $("form").on("submit", function (e) {
     var name = $("#name").val();
     var email = $("#email").val();
     var message = $("#message").val();
-
+    console.log('name', name);
+    console.log('email', email);
+    console.log('message', message);
     if(name == "" || email == "" || message == ""){
         $(".failed-message").html('We received your message and we will get back to you asap!');
     }
