@@ -9,7 +9,9 @@ $("form").on("submit", function (e) {
     }
     else{
         $.ajax({
+            headers: { "Accept": "application/json"},
             type: "POST",
+            crossDomain: true,
             url: "https://preciseagency-mailer.netlify.app/.netlify/functions/send-contact-email",
             data: {
               contactName: name,
