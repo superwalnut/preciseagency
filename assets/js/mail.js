@@ -9,7 +9,11 @@ $("form").on("submit", function (e) {
     }
     else{
         $.ajax({
-            headers: { "Accept": "application/json"},
+            headers: { 
+                "Accept": "application/json",
+                "referrer" : "https://preciseagency.com.au",
+                "security" : "6258fa91-1397-43d8-b89f-df044a8e33dc"
+            },
             type: "POST",
             crossDomain: true,
             url: "https://preciseagency-mailer.netlify.app/.netlify/functions/send-contact-email",
