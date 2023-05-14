@@ -22,6 +22,7 @@ $("form").on("submit", function (e) {
               contactEmail: email,
               message: message
             },
+            dataType: 'json',
             success: function () {
               // Display message back to the user here 
               $(".success-message").html('We received your message and we will get back to you asap!');
