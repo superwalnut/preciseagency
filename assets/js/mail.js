@@ -25,8 +25,11 @@ $("form").on("submit", function (e) {
             url: "https://mailer.preciseagency.com.au/.netlify/functions/send-contact-email",
             data: json,
             dataType: 'json',
-            success: function () {
+            success: function (result) {
               // Display message back to the user here 
+              $("#name").val('');
+              $("#email").val('');
+              $("#message").val('');
               $(".success-message").html('We received your message and we will get back to you asap!');
             }
           });
