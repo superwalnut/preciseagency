@@ -23,7 +23,7 @@ $("form").on("submit", function (e) {
             },
             type: "POST",
             crossDomain: true,
-            url: "https://preciseagency-mailer.netlify.app/.netlify/functions/send-contact-email",
+            url: "https://mailer.preciseagency.com.au/.netlify/functions/send-contact-email",
             data: json,
             dataType: 'json',
             success: function () {
