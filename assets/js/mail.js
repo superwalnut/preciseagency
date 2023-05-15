@@ -18,7 +18,6 @@ $("form").on("submit", function (e) {
         $.ajax({
             headers: { 
                 "Accept": "application/json",
-                "referrer" : "https://preciseagency.com.au",
                 "security" : "6258fa91-1397-43d8-b89f-df044a8e33dc"
             },
             type: "POST",
