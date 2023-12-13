@@ -5,6 +5,7 @@ $("form").on("submit", function (e) {
     var data = {
         contactName: name,
         contactEmail: email,
+        toEmail: "support@preciseagency.com.au",
         message: message
     };
 
