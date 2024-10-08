@@ -366,6 +366,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.hero-landing2 {
+  background: url("../img/hero-bg.jpg") top center !important;
+  background-size: cover;
+  position: relative;
+}
+
 .hero-landing {
   background: url("../img/testimonials-bg.jpg") top center !important;
   background-size: cover;
@@ -862,6 +868,12 @@ section {
   color: #151515;
   margin-left: 50px;
 }
+
+.counts .content .count-box h4 {
+  margin-left: 45px;
+  margin-top: 12px;
+}
+
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
@@ -886,6 +898,19 @@ section {
   background-size: cover;
   min-height: 400px;
 }
+
+.counts .chromeos1 {
+  background: url("../img/chromeos-1.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.counts .chromeos2 {
+  background: url("../img/chromeos-2.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
 @media (max-width: 991px) {
   .counts .image {
     text-align: center;
@@ -1548,4 +1573,9 @@ background-color: #673AB7;
   background: #ffc451;
   border-color: #ffc451;
   color: #151515;
+}
+
+
+.text-white {
+  color:#fff;
 }
