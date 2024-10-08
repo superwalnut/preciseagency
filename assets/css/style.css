@@ -1581,10 +1581,14 @@ background-color: #673AB7;
 }
 
 .text-yellow {
-  color: #ffc451;
+  color: #ffc451 !important;
 }
 
 .qrcode img {
   width:200px;
   height: 200px;
+}
+
+.text-massive {
+  font-size: 65px;
 }
